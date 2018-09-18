@@ -30,7 +30,6 @@ TupleSet x3_upper = factory.setOf("x0");
 bounds.boundExactly(x3, x3_upper);
 
 TupleSet x4_upper = factory.setOf("x1", "x2");
-System.out.println(x4_upper);
 bounds.boundExactly(x4, x4_upper);
 
 // bounds for inv
